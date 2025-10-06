@@ -8,8 +8,6 @@ def to_luminosity(char):
 def has_exoplanet(readings):
     if not readings:
         return False
-    
-
     numerical_list = [to_luminosity(char) for char in readings]
     total_sum = sum(numerical_list)
     count = len(numerical_list)
