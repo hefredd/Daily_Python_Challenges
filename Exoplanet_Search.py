@@ -4,7 +4,7 @@ def to_luminosity(char):
     elif "A" <= char <= "Z":
         return ord(char) - ord("A") + 10
     else:
-        raise ValueError(f"Invalid luminosity character {char}") 
+        raise ValueError(f"Invalid luminosity character: {char}") 
 def has_exoplanet(readings):
     if not readings:
         return False
