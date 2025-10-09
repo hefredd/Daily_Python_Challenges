@@ -1,6 +1,6 @@
 def find_landing_spot(matrix):
     safest_score = float('inf')
-    safe_coord = []
+    safest_coord = []
     rows = len(matrix)
     cols = len(matrix[0])
     neighbours = [(-1,0), (1,0), (0,-1), (0,1)]
