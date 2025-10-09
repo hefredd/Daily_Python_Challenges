@@ -5,7 +5,7 @@ def send_message(route):
     time_taken = total_distance / speed
     no_of_satellites = len(route) - 1
     total_delay = no_of_satellites * transmission_delay
-    total_time = time_taken + total_delay
-    rounded_time = round(total_time, 4) 
+    total_time_taken = time_taken + total_delay
+    rounded_time = round(total_time_taken, 4)
 
     return rounded_time
